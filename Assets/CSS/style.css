@@ -15,6 +15,7 @@ html {
     right: 0;
     background-color: #000000;
     height: 46px;
+    z-index: 1;
 }
 
 #nav {
@@ -91,14 +92,33 @@ html {
 
 
 #slider {
-    height: 300px;
-    background-color: orangered;
+    position: relative;
     margin-top: 46px;
+    padding-top: 50%;
+    background: url('/Assets/img/Slider/Slider1.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    color: #fff;
+    bottom: 47px;
+    text-align: center;
+    width: 100%;
+}
+
+#slider .text-heading {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#slider .text-description {
+
+    font-size: 15px;
 }
 
 #content {
-    height: 100vh;
-    background-color: #000000;
+
 }
 
 #footer {
