@@ -9,8 +9,12 @@ html {
 }
 
 #header {
-    height: 46px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #000000;
+    height: 46px;
 }
 
 #nav {
@@ -54,6 +58,7 @@ html {
     display: none;
     min-width: 160px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
 }
 
 #nav .subnav li a {
@@ -86,11 +91,14 @@ html {
 
 
 #slider {
-
+    height: 300px;
+    background-color: orangered;
+    margin-top: 46px;
 }
 
 #content {
-
+    height: 100vh;
+    background-color: #000000;
 }
 
 #footer {
