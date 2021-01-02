@@ -185,7 +185,7 @@ html {
     font-size: 15px;
 }
 
-.sold-out {
+.ticket-list .sold-out {
     background-color: #f44336;
     color: #fff;
     display: inline-block;
@@ -194,7 +194,7 @@ html {
     margin-left: 16px;
 }
 
-.quantity {
+.ticket-list .quantity {
     float: right;
     background-color: #000000;
     width: 22px;
