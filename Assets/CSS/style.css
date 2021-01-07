@@ -23,16 +23,22 @@ html {
 }
 
 .col {
+    float: left;
     padding-left: 8;
     padding-right: 8px;
-    float: left;
 }
 
 .col-third {
     width: 33.3333%;
 }
 
+.col-half {
+    width: 50%;
+}
 
+.col-full {
+    width: 100%;
+}
 
 #header {
     position: fixed;
