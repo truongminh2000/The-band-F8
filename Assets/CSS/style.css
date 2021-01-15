@@ -73,6 +73,7 @@ html {
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: 22px;
+    cursor: pointer;
     border: none;
 }
 
@@ -345,6 +346,30 @@ html {
 }
 /* Contact: End */
 
-#footer {
+.map img {
+    width: 100%;
+    display: inline-block;
+}
 
+#footer {
+    padding: 64px 0;
+    text-align: center;
+    
+}
+
+#footer a {
+    color: #333;
+    cursor: pointer;
+}
+
+.social-list {
+    font-size: 24px;
+}
+
+.social-list a {
+    text-decoration: none;
+}
+
+.social-list a:hover i {
+    color: #757575;
 }
