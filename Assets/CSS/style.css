@@ -324,6 +324,10 @@ html {
     line-height: 1.4;
 }
 
+.contact-info {
+    font-size: 18px;
+}
+
 .contact-info i[class*="fas"]{
     width: 30px;    
 }
