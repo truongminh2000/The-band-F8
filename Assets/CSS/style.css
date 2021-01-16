@@ -6,6 +6,7 @@
 
 html {
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* COMMON */
@@ -238,7 +239,7 @@ html {
 }
 
 /* TOUR SECTION */
-.tour {
+.tour-section {
     background-color: #000000;
 }
 
